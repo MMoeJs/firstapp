@@ -3,9 +3,9 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import NavBar from './Components/NavBar/NavBar';
 function App() {
   return (
-    <BrowserRouter Basename={'/firstapp'}>
+    <BrowserRouter>
       <Routes>
-        <Route Basename='/firstapp' element={<NavBar></NavBar>}>
+        <Route path='/' element={<NavBar></NavBar>}>
           <Route
             path='/Admin'
             element={
