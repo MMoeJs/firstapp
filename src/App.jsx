@@ -3,11 +3,11 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import NavBar from './Components/NavBar/NavBar';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter Basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path='/firstapp' element={<NavBar></NavBar>}>
+        <Route path='/' element={<NavBar></NavBar>}>
           <Route
-            path='/firstapp/Admin'
+            path='/Admin'
             element={
               <div className='flex w-screen h-screen items-center justify-center'>
                 Chkeck the Dashboard ,This is just a trial ,Start your order to
