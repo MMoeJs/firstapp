@@ -4,7 +4,9 @@ import NavBar from './Components/NavBar/NavBar';
 function App() {
   return (
     <BrowserRouter>
+      Mohamed
       <Routes>
+        Mohamed
         <Route path='/' element={<NavBar></NavBar>}>
           <Route
             path='/Admin'
