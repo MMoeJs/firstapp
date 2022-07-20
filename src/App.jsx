@@ -5,9 +5,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<NavBar></NavBar>}>
+        <Route path='/firstapp' element={<NavBar></NavBar>}>
           <Route
-            path='/Admin'
+            path='/firstapp/Admin'
             element={
               <div className='flex w-screen h-screen items-center justify-center'>
                 Chkeck the Dashboard ,This is just a trial ,Start your order to

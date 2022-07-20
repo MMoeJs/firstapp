@@ -1,8 +1,8 @@
 {
-  "homepage": "http://mmoejs.github.io/firstapp",
+  "homepage": "https://mmoejs.github.io/firstapp",
   "name": "react-lap",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d buildgi",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
