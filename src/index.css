@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hoverCol{
+  display: none;
+}
+
+.menu li:hover .hoverCol {
+  display: block;
+}
+.data tr ,.data th {
+}
