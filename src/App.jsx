@@ -1,9 +1,9 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './Components/Dashboard/Dashboard';
 import NavBar from './Components/NavBar/NavBar';
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       Mohamed
       <Routes>
         Mohamed
@@ -20,7 +20,7 @@ function App() {
           <Route path='/Dashboard' element={<Dashboard></Dashboard>}></Route>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
